@@ -55,15 +55,15 @@ public class InventoryItem {
         itemC.showStats();
 
         System.out.println("Running Clearance Sale...");
-        itemA.updatePrice(20.0); // 20% off the monitor
+        itemA.updatePrice(20.0); 
 
     
         System.out.println("Receiving Shipment...");
-        itemB.addStock(5); // Adding 5 keyboards
+        itemB.addStock(5); 
 
        
         System.out.println("Processing Customer Order...");
-        itemC.processSale(10); // Trying to sell 10 GPUs when only 3 are in stock
+        itemC.processSale(10); 
     }
 }
 ```
