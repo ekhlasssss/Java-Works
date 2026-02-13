@@ -1,4 +1,4 @@
-package OOPS_HomeWorks;
+package Homework;
 
 import java.util.Map;
 import java.util.HashMap;
